@@ -1,0 +1,10 @@
+Model,Accuracy (ACC),Specificity (SP),Precision (PRE),Sensitivity/Recall,F1 Score (F1),Matthews CorrCoef (MCC),Area Under Curve (AUC)
+Logistic Regression,0.9124,0.9315,0.8881,0.8815,0.8848,0.8142,0.9599
+Random Forest,0.9068,0.9498,0.9113,0.837,0.8726,0.8011,0.9612
+Support Vector Classifier,0.9153,0.9315,0.8889,0.8889,0.8889,0.8204,0.9523
+K-Nearest Neighbors,0.9096,0.9361,0.8931,0.8667,0.8797,0.8076,0.9489
+Gradient Boosting,0.904,0.9452,0.904,0.837,0.8692,0.795,0.9577
+AdaBoost,0.8729,0.9178,0.8571,0.8,0.8276,0.7282,0.9515
+XGBoost,0.9068,0.9315,0.8864,0.8667,0.8764,0.8017,0.9611
+PyTorch MLP,0.9209,0.9269,0.8849,0.9111,0.8978,0.8336,0.953
+Manual Hard Voting Ensemble,0.9153,0.9406,0.9008,0.8741,0.8872,0.8196,0.9637
